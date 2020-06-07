@@ -7,3 +7,4 @@ Currently running from an EC2 host running on AWS.
 ## Coursera
 
 - data-science-methodology
+- python-for-data-science-and-ai
