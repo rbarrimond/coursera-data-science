@@ -1,4 +1,6 @@
 # Ignore Jupyter record keeping
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
+
+# VS Code internals
 .vscode/
