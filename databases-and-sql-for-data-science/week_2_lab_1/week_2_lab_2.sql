@@ -1,0 +1,65 @@
+-- Example 1
+SELECT 
+    SUM(SALEPRICE)
+FROM
+    PETSALE;
+  
+-- Example 2
+SELECT 
+    SUM(SALEPRICE) as SUM_OF_SALEPRICE
+FROM
+    PETSALE;
+    
+-- Example 3A
+SELECT 
+    MAX(QUANTITY)
+FROM
+    PETSALE;
+    
+-- Example 3B
+SELECT 
+    MIN(ID)
+FROM
+    PETSALE
+WHERE
+    ANIMAL = 'Dog';
+    
+-- Example 4
+SELECT 
+    AVG(SALEPRICE)
+FROM
+    PETSALE;
+    
+-- Example 5
+SELECT 
+    FORMAT(AVG(SALEPRICE / QUANTITY), 2) as 'AVG_SALEPRICE'
+FROM
+    PETSALE
+WHERE
+    ANIMAL = 'Dog';
+
+-- Example 6
+SELECT 
+    ROUND(SALEPRICE)
+FROM
+    PETSALE;
+    
+-- Example 7
+SELECT 
+    LENGTH(ANIMAL)
+FROM
+    PETSALE;
+    
+-- Example 8
+SELECT 
+    UPPER(ANIMAL)
+FROM
+    PETSALE;
+    
+-- Example 9
+SELECT 
+    *
+FROM
+    PETSALE
+WHERE
+    LOWER(ANIMAL) = 'cat';
