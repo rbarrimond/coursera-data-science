@@ -63,3 +63,39 @@ FROM
     PETSALE
 WHERE
     LOWER(ANIMAL) = 'cat';
+    
+-- Example 10
+SELECT DISTINCT
+    (UPPER(ANIMAL))
+FROM
+    PETSALE;
+    
+-- Example 11
+SELECT 
+    DAY(SALEDATE)
+FROM
+    PETSALE
+WHERE
+    ANIMAL = 'Cat';
+    
+-- Example 12
+SELECT 
+    COUNT(*)
+FROM
+    PETSALE
+WHERE
+    MONTH(SALEDATE) = '05';
+    
+-- Example 13
+SELECT 
+    ADDDATE(SALEDATE, 3)
+FROM
+    PETSALE;
+    
+-- Example 14
+SELECT 
+    CURRENT_DATE,
+    SALEDATE,
+    (CURRENT_DATE - SALEDATE)
+FROM
+    PETSALE;
