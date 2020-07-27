@@ -1,0 +1,11 @@
+EMP_ID,L_NAME,DEPT_ID_DEP,DEP_NAME
+E1001,Thomas,2,"Architect Group"
+E1002,James,5,"Software Group"
+E1003,Wells,5,"Software Group"
+E1004,Kumar,5,"Software Group"
+E1005,Hussain,2,"Architect Group"
+E1006,Allen,2,"Architect Group"
+E1007,Thomas,7,"Design Team"
+E1008,Gupta,7,"Design Team"
+E1009,Jones,7,"Design Team"
+E1010,Jacob,5,"Software Group"
