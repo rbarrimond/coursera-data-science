@@ -4,3 +4,6 @@
 
 # VS Code internals
 .vscode/
+
+# R
+.Rhistory
