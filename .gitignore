@@ -7,3 +7,6 @@
 
 # R
 .Rhistory
+
+# Virtualenv
+venv/
