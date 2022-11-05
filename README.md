@@ -1,4 +1,4 @@
-# My Jupyter Notebooks
+# My Coursera Work in Data Science
 
 This repo contains the notebooks I'm learning from and playing around with.
 
