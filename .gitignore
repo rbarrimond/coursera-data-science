@@ -10,5 +10,6 @@
 
 # Virtualenv
 venv/
+.venv/
 
 .DS_Store
